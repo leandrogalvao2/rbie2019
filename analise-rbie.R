@@ -8,7 +8,7 @@
 rm(list=ls())
 
 # Ajusta diretorio de trabalho
-setwd("C://Users//llean//Dropbox//pesquisa//__Meus Artigos//Artigos 2019//RBIE//dadosDavid")
+# setwd("C:// YOUR PATH")
 
 #---------------------------------
 # CONFIGURACAO DE GRAFICOS
@@ -28,6 +28,7 @@ boxwidth = 0.2
 # ABRIR ARQUIVOS
 #---------------------------------
 
+# ALUNOS NAO DESISTENTES
 # read csv file
 df_2016 = read.csv2("ipc-consolid-2016.csv", header = TRUE, sep = ";", dec = ",")
 attach(df_2016)
@@ -35,6 +36,8 @@ attach(df_2016)
 df_2017 = read.csv2("ipc-consolid-2017.csv", header = TRUE, sep = ";", dec = ",")
 attach(df_2017)
 
+
+# TODOS ALUNOS MATRICULADOS
 # read csv file
 df_2016c = read.csv2("combined2016-1.csv", header = TRUE, sep = ";", dec = ",")
 attach(df_2016c)
